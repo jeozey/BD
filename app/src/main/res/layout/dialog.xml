@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@id/adress" android:layout_margin="10dp"
+        android:layout_width="250.0dip"
+        android:layout_height="wrap_content"
+        android:hint="地址" />
+
+    <EditText
+        android:id="@id/port" android:layout_margin="10dp"
+        android:layout_width="250.0dip"
+        android:layout_height="wrap_content"
+        android:hint="端口" />
+
+    <EditText
+        android:id="@id/folder" android:layout_margin="10dp"
+        android:layout_width="250.0dip"
+        android:layout_height="wrap_content"
+        android:hint="目录" />
+
+    <Button
+        android:id="@id/clickbtn" android:layout_margin="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="确定" />
+</LinearLayout>
